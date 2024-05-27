@@ -1,0 +1,49 @@
+﻿@model IEnumerable<AMST4.Carousel.MVC.Models.Category>
+
+@{
+    ViewData["Title"] = "Lista de Categoria";
+}
+
+<h1>Lista de Categoria</h1>
+
+<p>
+    <a asp-action="AddCategory">Criar Nova Categoria</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedAt)
+            </th>
+            
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImageUrl)
+            </td>
+             <td>
+                @Html.DisplayFor(modelItem => item.CreatedAt)
+             </td>
+
+            <td>
+                <a asp-action="CategoryEdit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-action="CategoryDetails" asp-route-id="@item.Id">Detalhes</a> |
+                <a asp-action="CategoryDelete" asp-route-id="@item.Id">Excluir</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
