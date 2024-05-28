@@ -9,6 +9,6 @@ namespace AMST4.Carousel.MVC.Context
 
         public DbSet<Category> Category { get; set; }
         public DbSet<Product> Product { get; set; }
-        public DbSet<Size> Size { get; set; }
-    }
+		public DbSet<Size> Size { get; set; }
+	}
 }

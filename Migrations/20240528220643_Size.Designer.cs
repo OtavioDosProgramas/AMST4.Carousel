@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AMST4.Carousel.MVC.Migrations
 {
     [DbContext(typeof(ApplicationDataContext))]
-    [Migration("20240527153424_Size")]
+    [Migration("20240528220643_Size")]
     partial class Size
     {
         /// <inheritdoc />
@@ -88,7 +88,7 @@ namespace AMST4.Carousel.MVC.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Desciption")
+                    b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("TEXT");
 

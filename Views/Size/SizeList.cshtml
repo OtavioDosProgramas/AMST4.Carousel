@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<AMST4.Carousel.MVC.Models.Size>
 
 @{
-    ViewData["Title"] = "SizeList";
+    ViewData["Title"] = "Index";
 }
 
-<h1>Lista de Tamanho</h1>
+<h1>Index</h1>
 
 <p>
     <a asp-action="AddSize">Adicionar Tamanho</a>
@@ -16,7 +16,7 @@
                 @Html.DisplayNameFor(model => model.Id)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Desciption)
+                @Html.DisplayNameFor(model => model.Description)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.IsActive)
@@ -30,11 +30,11 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Id)
-                </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Desciption)
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.IsActive)
@@ -44,7 +44,7 @@
             </td>
             <td>
                 <a asp-action="SizeEdit" asp-route-id="@item.Id">Editar</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+                <a asp-action="SizeDelete" asp-route-id="@item.Id">Excluir</a>
             </td>
         </tr>
 }

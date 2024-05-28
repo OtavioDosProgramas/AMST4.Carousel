@@ -56,8 +56,8 @@ namespace AMST4.Carousel.MVC.Controllers
         public IActionResult AddCategory(Category category, IFormFile image)
         {
             
-                var fileName = Guid.NewGuid().ToString() + Path.GetExtension(image.FileName);
-                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
+                var fileName = Guid.NewGuid().ToString() + image.FileName;
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "Category", fileName);
                 using (var stream = new FileStream(filePath, FileMode.Create))
                 {
                      image.CopyTo(stream);
