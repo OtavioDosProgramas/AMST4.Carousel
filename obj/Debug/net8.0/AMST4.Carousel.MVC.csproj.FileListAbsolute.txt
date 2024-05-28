@@ -1680,3 +1680,4 @@ C:\Users\Programmers\Desktop\AMST4.Carousel\AMST4.Carousel.MVC\obj\Debug\net8.0\
 C:\Users\Programmers\Desktop\AMST4.Carousel\AMST4.Carousel.MVC\obj\Debug\net8.0\AMST4.Carousel.MVC.genruntimeconfig.cache
 C:\Users\Programmers\Desktop\AMST4.Carousel\AMST4.Carousel.MVC\obj\Debug\net8.0\ref\AMST4.Carousel.MVC.dll
 C:\2AMS\2A\AMST4.Carousel\AMST4.Carousel.MVC\obj\Debug\net8.0\AMST4.Carousel.MVC.sourcelink.json
+D:\2 AMS\Jeferson\AMST4.Carousel\AMST4.Carousel.MVC\obj\Debug\net8.0\AMST4.Carousel.MVC.sourcelink.json

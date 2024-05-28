@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\2AMS\\2A\\AMST4.Carousel\\AMST4.Carousel.MVC\\AMST4.Carousel.MVC.csproj": {}
+    "D:\\2 AMS\\Jeferson\\AMST4.Carousel\\AMST4.Carousel.MVC\\AMST4.Carousel.MVC.csproj": {}
   },
   "projects": {
-    "C:\\2AMS\\2A\\AMST4.Carousel\\AMST4.Carousel.MVC\\AMST4.Carousel.MVC.csproj": {
+    "D:\\2 AMS\\Jeferson\\AMST4.Carousel\\AMST4.Carousel.MVC\\AMST4.Carousel.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\2AMS\\2A\\AMST4.Carousel\\AMST4.Carousel.MVC\\AMST4.Carousel.MVC.csproj",
+        "projectUniqueName": "D:\\2 AMS\\Jeferson\\AMST4.Carousel\\AMST4.Carousel.MVC\\AMST4.Carousel.MVC.csproj",
         "projectName": "AMST4.Carousel.MVC",
-        "projectPath": "C:\\2AMS\\2A\\AMST4.Carousel\\AMST4.Carousel.MVC\\AMST4.Carousel.MVC.csproj",
+        "projectPath": "D:\\2 AMS\\Jeferson\\AMST4.Carousel\\AMST4.Carousel.MVC\\AMST4.Carousel.MVC.csproj",
         "packagesPath": "C:\\Users\\Otavio\\.nuget\\packages\\",
-        "outputPath": "C:\\2AMS\\2A\\AMST4.Carousel\\AMST4.Carousel.MVC\\obj\\",
+        "outputPath": "D:\\2 AMS\\Jeferson\\AMST4.Carousel\\AMST4.Carousel.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Otavio\\AppData\\Roaming\\NuGet\\NuGet.Config",
